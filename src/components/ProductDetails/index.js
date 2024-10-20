@@ -8,11 +8,7 @@ const ProductDetails = () => {
   const { plantsArray } = useContext(AppContext);
   const { id } = useParams();
 
-  console.log("plants array", plantsArray);
-  console.log("id", id);
-
   const filterProduct = plantsArray.filter((item) => item.id === parseInt(id));
-  console.log("filterProduct", filterProduct);
 
   const { imageUlr, plantName, rating, actualPrise, offerPrise, ratingImage } =
     filterProduct[0];
@@ -22,7 +18,7 @@ const ProductDetails = () => {
         <h3>Thankyou for choosing us! </h3>
         <p>Here the product details</p>
         <div className="t-product-details-cont">
-          <img src={imageUlr} className="product-image" />
+          <img src={imageUlr} className="product-image" alt="plant-img" />
           <div className="plant-details">
             <p>Product Name : {plantName}</p>
             <p>

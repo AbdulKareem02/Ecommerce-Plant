@@ -194,10 +194,10 @@ const PlantProducts = () => {
               <select className="select-sort">
                 <option className="sort-by-text">Sort By</option>
                 <hr />
-                <option>Size</option>
-                <option>Popularity</option>
-                <option>Prise : High - Low</option>
-                <option>Prise : Low - Heigh</option>
+                <option value="size">Size</option>
+                <option value="popularity">Popularity</option>
+                <option value="high-low">Prise : High - Low</option>
+                <option value="low-high">Prise : Low - Heigh</option>
               </select>
             </div>
 
@@ -212,7 +212,11 @@ const PlantProducts = () => {
                 <li className="product-list-item" key={item.id}>
                   <div className="plant-cont">
                     <div className="pant-and-like">
-                      <img src={item.imageUlr} className="plant-images" />
+                      <img
+                        src={item.imageUlr}
+                        className="plant-images"
+                        alt="pant-images"
+                      />
                       {item.isLiked ? (
                         <IoHeartSharp
                           className="color-like-icon"

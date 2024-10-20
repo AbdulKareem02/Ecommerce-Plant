@@ -56,7 +56,11 @@ const Cart = () => {
                 {cartItemsArray.map((item) => (
                   <>
                     <li className="cart-list-item" key={item.id}>
-                      <img src={item.imageUrl} className="cart-img" />
+                      <img
+                        src={item.imageUrl}
+                        className="cart-img"
+                        alt="cart-image"
+                      />
                       <p>{item.plantName}</p>
                       <p>{item.quantity}</p>
                       <p>
