@@ -10,42 +10,20 @@ const filterArray = [
   {
     id: 0,
     text: "Type of Plants",
-    subLinks: [
-      {
-        id: 0,
-        filter: "Lorem Ipsum (12)",
-        filter: "Lorem Ipsum (22)",
-        filter: "Lorem Ipsum (45)",
-        filter: "Lorem Ipsum (9)",
-        filter: "Lorem Ipsum (15)",
-      },
-    ],
   },
-  { id: 1, text: "Price", subLinks: [] },
-  { id: 2, text: "Nursery", subLinks: [] },
-  { id: 3, text: "Ideal Plant Location", subLinks: [] },
+  { id: 1, text: "Price" },
+  { id: 2, text: "Nursery" },
+  { id: 3, text: "Ideal Plant Location" },
   {
     id: 4,
     text: "Indoor/Outdoor",
-    subLinks: [
-      {
-        id: 0,
-        filter: "Lorem Ipsum (12)",
-        filter: "Lorem Ipsum (22)",
-        filter: "Lorem Ipsum (45)",
-        filter: "Lorem Ipsum (9)",
-        filter: "Lorem Ipsum (15)",
-        filter: "Lorem Ipsum (35)",
-        filter: "Lorem Ipsum (5)",
-      },
-    ],
   },
-  { id: 5, text: "Maintenance", subLinks: [] },
-  { id: 6, text: "Plant Size", subLinks: [] },
-  { id: 7, text: "Water Schedule", subLinks: [] },
-  { id: 8, text: "Color", subLinks: [] },
-  { id: 9, text: "Seasonal", subLinks: [] },
-  { id: 10, text: "Light Effect", subLinks: [] },
+  { id: 5, text: "Maintenance" },
+  { id: 6, text: "Plant Size" },
+  { id: 7, text: "Water Schedule" },
+  { id: 8, text: "Color" },
+  { id: 9, text: "Seasonal" },
+  { id: 10, text: "Light Effect" },
 ];
 
 const PlantProducts = () => {

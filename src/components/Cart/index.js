@@ -32,7 +32,6 @@ const Cart = () => {
             alt="no-products-img"
             src="https://res.cloudinary.com/dhfhuqtqi/image/upload/v1729258801/e-commerce%20assignment/14d6293522911d4a2548b9b1cf65a33a_egsgot.png"
           />
-          <img />
           <p>
             Thank you for choosing Chaperone services. We will soon get in touch
             with you!

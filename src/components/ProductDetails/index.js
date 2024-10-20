@@ -22,7 +22,8 @@ const ProductDetails = () => {
           <div className="plant-details">
             <p>Product Name : {plantName}</p>
             <p>
-              Product Name : <img src={ratingImage} className="rating-img" />
+              Product Name :
+              <img src={ratingImage} className="rating-img" alt="product-img" />
               {rating}
             </p>
             <p className="">
