@@ -1,0 +1,36 @@
+.product-details-bg-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.t-product-details-cont {
+  display: flex;
+}
+.product-image {
+  height: 180px;
+  width: 200px;
+  margin-right: 15px;
+}
+.thankyou-card {
+  padding: 15px;
+  height: 60vh;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+}
+.actual-price {
+  text-decoration: line-through;
+}
+.back-to-shopping {
+  border: 0px;
+  background-color: darkgreen;
+  color: #fff;
+  font-size: 18px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}

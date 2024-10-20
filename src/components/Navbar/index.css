@@ -1,0 +1,130 @@
+.website-nav-bg-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  height: 70px;
+}
+.website-logo {
+  width: 60px;
+  height: 60px;
+  top: 58px;
+  left: 53px;
+  gap: 0px;
+  opacity: 0px;
+}
+.website-name {
+  font-family: "Bree Serif";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #0f4811;
+  margin-left: 15px;
+}
+.website-logo-cont {
+  display: flex;
+  align-items: center;
+}
+.user-cart-icon {
+  margin-right: 5px;
+}
+.profile-cont {
+  display: flex;
+  justify-content: center;
+}
+.sections-cont {
+  display: flex;
+}
+.sections-cont-small {
+  display: none;
+}
+.section-btn {
+  background-color: transparent;
+  border: 0px;
+  margin-left: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #000;
+}
+
+.section-link {
+  text-decoration: none;
+  color: #000;
+}
+.section-link:hover {
+  text-decoration: underline;
+  color: orange;
+}
+.sub-link-cont {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  z-index: 1;
+  width: 130px;
+}
+.profile-icon-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.cart-icon-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.profile-cont-link {
+  color: #000;
+  text-decoration: none;
+}
+.cart-count {
+  background-color: orange;
+  padding: 2px;
+  border-radius: 45px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 110px;
+  font-weight: 500;
+  font-size: 11px;
+}
+.sections-cont-sm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .cart-count {
+    right: 10px;
+  }
+  .website-nav-bg-cont {
+    padding: 10px;
+  }
+  .website-logo {
+    width: 30px;
+    height: 30px;
+    top: 58px;
+    opacity: 0px;
+  }
+  .sections-cont {
+    display: none;
+  }
+  .sections-cont-sm {
+    display: block flex;
+  }
+  .sections-cont-sm button {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}

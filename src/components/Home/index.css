@@ -1,0 +1,111 @@
+.search-bg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-bg-container {
+  height: 250vh;
+  background-image: linear-gradient(
+    to bottom,
+    #fff,
+    #daf1da,
+    rgb(162, 238, 162)
+  );
+  margin-top: 0px;
+  width: 100%;
+}
+.search-icon {
+  border: 2px solid #696969;
+  border-right: 0px;
+  height: 28px;
+  border-top: 0;
+  border-left: 0px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-leaf-image {
+  height: 30px;
+  border: 2px solid #696969;
+  border-left: 0px;
+  height: 28px;
+  border-top: 0;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.home-content-pages {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.home-top-tag {
+  background: #165315;
+  height: 33px;
+  color: #fff;
+  margin-top: 0px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.tag-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  margin-top: 10px;
+}
+.search-input {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+.plant-btn {
+  border: 0px;
+  background-color: #165315;
+  color: #fff;
+  width: 120px;
+  border-radius: 5px;
+  height: 35px;
+  margin-right: 15px;
+}
+.pots-btn {
+  border: 0px;
+  border: 2px solid #165315;
+  color: #165315;
+  width: 120px;
+  border-radius: 5px;
+  height: 35px;
+}
+.home-info-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #838383;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .home-content-pages {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .home-top-tag {
+    height: 53px;
+
+    font-size: 12px;
+  }
+  .tag-cont {
+    width: 100%;
+  }
+  .search-bg-container {
+    margin-bottom: 20px;
+  }
+  .home-info-text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

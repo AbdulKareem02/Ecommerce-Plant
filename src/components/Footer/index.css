@@ -1,0 +1,57 @@
+.footer-bg-container {
+  margin-top: 100px;
+  background: #f0ffe5;
+  padding: 20px;
+}
+.services-cont {
+  display: flex;
+}
+.s-cont {
+  width: 450px;
+}
+.footer-bg-container p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: #595959;
+}
+.footer-bg-container h4 {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.follow-us-icon {
+  margin-right: 10px;
+  font-size: 25px;
+}
+.subscribe-btn {
+  border: 0px;
+  background: #247822;
+  color: #fff;
+  border-radius: 5px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .s-cont {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .s-cont h4 {
+    font-size: 10px;
+    line-height: 17px;
+  }
+  .s-cont p {
+    font-size: 10px;
+  }
+  .footer-bg-container {
+    margin-top: 80px;
+    padding: 10px;
+  }
+  .email-input {
+    width: 130px;
+    height: 20px;
+    font-size: 10px;
+  }
+}
